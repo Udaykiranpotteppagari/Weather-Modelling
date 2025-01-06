@@ -1,0 +1,10 @@
+def Temperature_modeling(a, b, c, time):
+    temp = a * time**2 + b * time + c
+    return temp
+temp = Temperature_modeling(
+    float(input('Enter a: ')),
+    float(input('Enter b: ')),
+    float(input('Enter c: ')),
+    int(input('Enter Time: '))
+)
+print(f"The Temperature at time {time} is {temp}")
